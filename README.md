@@ -74,7 +74,7 @@ Recordemos que git se compone de 3 Areas {Git Repository, Staging Area, Working 
     - ##### git stash apply
         * Sirve para aplicar los cambios del borrador.
 
-Aparte de los comandos he creado una carpeta .gitignore para que ignore los archivos propios e innecesarios de mac .
+Aparte de los comandos he creado un fichero .gitignore para que ignore los archivos propios e innecesarios de mac .
 
 
 
