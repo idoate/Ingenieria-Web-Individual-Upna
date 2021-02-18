@@ -65,6 +65,10 @@ Recordemos que git se compone de 3 Areas {Git Repository, Staging Area, Working 
     
     - ##### git rebase
         * Sirve para unir ramas pero es mas complejo y de momento no lo vamos a utilizar.
+    
+    - ##### git branch
+        * Sirve para crear una rama
+        * Se utiliza de la siguiente manera -> *git branch nombre_rama_a_crear*
 
 + #### Comandos para borrador
     - ##### git stash 
