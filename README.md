@@ -11,13 +11,13 @@ Recordemos que git se compone de 3 Areas {Git Repository, Staging Area, Working 
     - ##### git add
         * Con este comando *añadimos* los archivos creados o modificados al staging area.
         * Para incluir todos los quue habria que añadir seria -> *git add .*
-        * Para solo incluir uno seria -> *git add archivo.txt* .
+        * Para solo incluir uno seria -> *git add archivo.txt* 
     - ##### git rm
         * Con este comando *eliminamos* los archivos creados o modificados del staging area.
-        * Se utiliza igual que el git add.
+        * Se utiliza igual que el git add .
     - ##### git commmit
         * Sirve para guardar los cambios y dejar limpio el staging area para poder hacer push.
-        * Solemos usarlo de la siguiente manera -> *git commit -m "Mensaje del commit"* .
+        * Solemos usarlo de la siguiente manera -> *git commit -m "Mensaje del commit"* 
         * Si queremos añadir -a  de ofrma que quede -> *git commit -a -m "Mensaje del commit"* para añadir los archivos que estan en seguimiento (staging area).
     - ##### git pull
         * Sirve para recibir los cambios que ha tenido el repositorio de Git "Que no han sido por nuestra parte".
@@ -26,7 +26,7 @@ Recordemos que git se compone de 3 Areas {Git Repository, Staging Area, Working 
     - ##### git push
         * Sirve para enviar la informacion que tenemos en el Staging Area al Git Repository.
         * Para poder hacer un push tenemos que estar actualizados de los cambios que ha tenido el repositorio (git pull).
-        * Se utiliza de la siguiente manera -> *git push* .
+        * Se utiliza de la siguiente manera -> *git push* 
 + #### Comandos que aportan Informacion
     - ##### git log
         * Sirve para ver los commits realizados hasta el momento.
@@ -34,7 +34,7 @@ Recordemos que git se compone de 3 Areas {Git Repository, Staging Area, Working 
         * Tiene muchas variantes a la hora de usarlo -> *git log -p* || *git log --stat*                 -> *git log --pretty=oneline* || *git log --graph*  || muchas otras mas
     - ##### git lol
         * Este comando **no** nos lo da git  pero nos facilita mucho obtener informacion
-        * Es un alias que hemos creado a partir del siguiente comando                                     -> *git config --global --add alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"* .
+        * Es un alias que hemos creado a partir del siguiente comando                                     -> *git config --global --add alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"* 
     - ##### git remote -v
         * Sirve para consultar qué repositorios estás utilizando
         * Se utiliza de la siguiente manera *git remote -v*
@@ -54,14 +54,14 @@ Recordemos que git se compone de 3 Areas {Git Repository, Staging Area, Working 
         * Para ver las utilidades y como se usa el comando [pincha aqui](https://www.atlassian.com/es/git/tutorials/using-branches/git-checkout)
     - ##### git revert 
         * sirve para crear un nuevo commit revirtiendo cambios.
-        * se utiliza de la siguiente manera -> *git revert id_commmit_a_revertir* .
+        * se utiliza de la siguiente manera -> *git revert id_commmit_a_revertir* 
 + #### Comandos para modificar ramas
     - ##### git checkout 
         * Sirve para cambiar el HEAD a la rama que queramos.
-        * Se utiliza de la siguiente manera -> *git checkout nombre_rama* .
+        * Se utiliza de la siguiente manera -> *git checkout nombre_rama* 
     - ##### git merge 
-        * Sirve para unir una rama a la rama actual
-        * Se utiliza de la siguiente manera -> *git merge nombre_rama_que_queremos_unir* .
+        * Sirve para unir una rama a la rama actual.
+        * Se utiliza de la siguiente manera -> *git merge nombre_rama_que_queremos_unir* 
     
     - ##### git rebase
         * Sirve para unir ramas pero es mas complejo y de momento no lo vamos a utilizar.
@@ -72,7 +72,7 @@ Recordemos que git se compone de 3 Areas {Git Repository, Staging Area, Working 
 
 + #### Comandos para borrador
     - ##### git stash 
-        * Sirve para crear un borrador en el directorio git
+        * Sirve para crear un borrador en el directorio git.
     - ##### git stash list
         * Sirve para ver los archivos del  borrador
     - ##### git stash apply
