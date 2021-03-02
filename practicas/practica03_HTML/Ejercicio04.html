@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ejercicio04" content="Formularios">
+    <title>Ejercicio04</title>
+</head>
+<body>
+    <form action="./manejadorFormulario.php" method="POST">
+        <div>
+            <label for="name">Nombre:
+                <input type="text" id="name" name="user_name">
+            </label>
+        </div>
+        <div>
+            <label for="age">Edad:
+                <input type="number" id="age" name="user_age">
+            </label>
+        </div>
+        <div>
+            <label for="mail">Mail:
+                <input type="email" id="mail" name="user_email">
+            </label>
+        </div>
+        <div>
+            <label for="password">Contraseña:
+                <input type="text" id="password" name="user_password" maxlength="12" minlength="5">
+            </label>
+        </div>
+        <div>
+            <label for="curso">Curso:
+                <select id="curso" name="user_curso">
+                    <datalist id="cursos-carrera"> 
+                        <option value="2_carrera" label="2º Carrera"></option>
+                        <option value="3_carrera" label="3º Carrera"></option>
+                        <option value="4_carrera" label="4º Carrera"></option>
+                    </datalist>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label for="comment"> 
+                <textarea id="address" name="user_address" rows=5 placeholder="First name only" required ></textarea>
+            </label>
+        </div>
+        
+        <fieldset>
+            <div class="hair-color"> 
+                <label for="rubio">Rubio
+                    <input id="rubio" name="user_rubio" type="radio"> 
+                </label> 
+                <label for="castanio">Castaño
+                    <input id="castanio" name="user_castanio" type="radio">
+                </label> 
+                <label for="moreno">Moreno
+                    <input id="moreno" name="user_moreno" type="radio"> 
+                </label>
+                <label for="pelirrojo">Pelirrojo
+                    <input id="pelirrojo" name="user_pelirrojo" type="radio"> 
+                </label> 
+                <label for="calvo">Calvo
+                    <input id="calvo" name="user_calvo" type="radio">
+                </label> 
+                <label for="otro">Otro...
+                    <input id="otro" name="user_otro" type="radio"> 
+                </label>
+            </div> 
+        </fieldset> 
+       
+        <fieldset>
+            <legend>Vehículo</legend> 
+            <div class = "vehicle"> 
+                <label for="car">Coche
+                    <input type="checkbox" name="user_car" id="car">
+                </label>
+                <label for="bike">Bici
+                    <input type="checkbox" name="user_bike" id="bike">
+                </label>
+                <label for="motorbike">Moto
+                    <input type="checkbox" name="user_motorbike" id="motorbike">
+                </label>
+                <label for="boat">Barco
+                    <input type="checkbox" name="user_boat" id="boat">
+                </label>
+                <label for="bus">Bus
+                    <input type="checkbox" name="user_bus" id="bus">
+                </label>
+            </div>
+        </fieldset>
+        
+        <div>
+            <label for="apocalipsis" pl>Fecha del apocalipsis:
+                <input type="date" name="user_apocalipsis" id="apocalipsis" placeholder="mm/dd/yy"required>
+            </label>
+        </div>
+        <div>
+            <label for="power">Nivel de poder:
+                <input type="range" name="user_power" id="power">
+            </label>
+        </div>
+        <div>
+            <label for="submit">Submit
+                <input type="submit" name="submit_user" id="submit">
+            </label>
+            
+            <label for="reset">Reset
+                <input type="reset" name="reset_user" id="reset">
+            </label>
+        </div>
+
+    
+
+    
+    </form>
+    
+</body>
+</html>
