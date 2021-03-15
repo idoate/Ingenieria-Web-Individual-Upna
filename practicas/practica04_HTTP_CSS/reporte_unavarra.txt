@@ -1,0 +1,5 @@
+- Peticiones HTTP realizadas: 71
+- Tamaño/peso de cargar toda la portada: 10.9MB
+- Protocolo(s) HTTP empleados: La mayoria GET pero algun POST contenido del tipo(application/x-www-form-urlencoded; charset=utf-8)
+- Recurso no encontrado y respuesta HTTP ofrecida: "http://www.unavarra.es/generated-resources/4fccf682ccb91264f660fa3f19c13b.min.css"  404 No Encontrado
+- Cabecera de peticion HTTP y respuest HTTP de un recurso curioso:  a parte de documentos html imagenes modelados en css y documentos .js encontramos peticiones como la  peticion POST nombrada anteriormente, sque desconozco y me resulta interesante que empiezan por pwiki.php? la respuesta a la peticion POST es -> 204 No Response
