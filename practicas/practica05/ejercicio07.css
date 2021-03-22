@@ -1,0 +1,88 @@
+h1#titulo{
+    text-align: center;
+}
+div#calculadora{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    background-color: gainsboro;
+}
+div#pantalla{
+    height:108px;
+    flex-basis: 100%;
+    background-color: white;
+    justify-content: stretch;
+    border-radius: 25px;
+    margin: 20px;
+    clear: none;
+}
+div#pantalla p{
+    padding: 10px;
+
+}
+p#upScreen{
+    height: 18px;
+    margin-bottom: 0px;
+    text-align: left;
+
+}
+p#downScreen{
+    height: 18px;
+    margin-top:0px;
+    text-align: right;
+}
+
+div#botonera{
+    display: flex;
+    flex-wrap: wrap;
+    clear: none;
+    margin-top: 25px;
+    margin: 3px;
+
+}
+div#operadoresTop{
+    flex-direction: row;
+    flex-basis: 100%;
+    margin-left: 20px;
+}
+div#operadoresTop button{
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+div#numeros{
+    height: 100vh;
+    flex-basis: 75%;
+    width: fit-content;
+    margin-left: 20px;
+}
+div#numeros button{
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+div#operadoresLateral{
+    flex-basis: 19%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+div#operadoresLateral button{
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

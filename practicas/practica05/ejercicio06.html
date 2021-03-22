@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ejercicio06" content="formylario con aciertos">
+    <title>Ejercicio06</title>
+</head>
+<body>
+    <h2>Preguntas de culturilla general</h2>
+    <form action="./manejadorFormulario.php" method="POST">
+        <div>
+            <label id="label1">¿Cual es el rio mas largo del mundo?<br>
+                <input type="text" id="input1">
+            </label>
+        </div>
+        <div>
+            <label id="label2">¿En que año termino la II guerra mundial?<br>
+                <input type="number" id="input2">
+            </label>
+        </div>
+        <div>
+            <label id="label3">¿De que cantante es la cancion "Tears in Heaven"?<br>
+                <select id="select3" name="user_curso">
+                    <datalist id="datalist3"> 
+                        <option value="value1" label="Michael Jackson"></option>
+                        <option value="value2" label="Eric Clapton"></option>
+                        <option value="value3" label="Dire Straits"></option>
+                    </datalist>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label id="label4">¿Que instrumento tocaba Paco de Lucia?<br>
+                <input type="text" id="input4">
+            </label>
+        </div>
+        <div>
+        <fieldset>
+            <legend>¿Que colores forman la bandera de mexico?</legend> 
+            <div class="colores"> 
+                <label id="color1Label">Verde
+                    <input id="color1Input" name="Verde" type="checkbox"> 
+                </label> 
+                <label id="color2Label">Azul
+                    <input id="color2Input" name="user_castanio" type="checkbox">
+                </label> 
+                <label id="color3Label">Blanco
+                    <input id="color3Input" name="user_moreno" type="checkbox"> 
+                </label>
+                <label id="color4Label">Rojo
+                    <input id="color4Input" name="user_pelirrojo" type="checkbox"> 
+                </label> 
+                <label id="color5Label">Morado
+                    <input id="color5Input" name="user_calvo" type="checkbox">
+                </label> 
+                <label id="color6Label">Amarillo
+                    <input id="color6Input" name="user_otro" type="checkbox"> 
+                </label>
+            </div> 
+        </fieldset> 
+    </form>
+    <p id="p1" style="display: inline;">La puntuacion obtenida en las respuestas es </p>
+    <p id = "psol1" style="display: inline;"></p>
+    <p id="3" style="display: inline;">/5</p>
+    <p><br></p>
+    <p id="p4" style="display: inline;">El porcentaje de acierto en las respuestas es</p>
+    <p id="psol2" style="display: inline;"></p>
+    <p id="p5" style="display: inline;">%</p>
+    <button type="button" id= "button1" onclick="corregirFormulario()">Corregir Formulario</button>
+    <script src="ejercicio06.js"></script>
+</body>
+
+</html>

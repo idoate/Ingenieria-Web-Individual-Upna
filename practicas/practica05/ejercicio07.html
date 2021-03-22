@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ejercicio07" content="Aprendiendo CSS">
+    <title>Ejercicio07</title>
+    <link rel="stylesheet" href="./ejercicio07.css">
+</head>
+<body>
+    <head>
+        <h1 id = titulo>Calculadora realizada con HTML CSS y JavaScript</h1>
+    </head>
+    <div id="calculadora">
+        <div id="pantalla">
+            <p id="upScreen"></p>
+            <p id ="downScreen"></p>
+        </div>
+        <div id="botonera">
+            <div id="operadoresTop">
+                <button type="button" onclick="addButtonToString('(')">(</button>
+                <button type="button" onclick="addButtonToString(')')">)</button>
+                <button type="button" onclick="addButtonToString('^')">^</button>
+                <button type="button" onclick="addButtonToString('max(')">max</button>
+                <button type="button" onclick="addButtonToString('min(')">min</button>
+                <button type="button" onclick="addButtonToString('*')">*</button>
+                <button type="button" onclick="addButtonToString('/')">/</button>
+                <button type="button" onclick="resetCalculator()">AC</button>
+
+            </div>
+            <div id="numeros">
+                <button type="button" onclick="addButtonToString('1')">1</button>
+                <button type="button" onclick="addButtonToString('2')">2</button>
+                <button type="button" onclick="addButtonToString('3')">3</button>
+                <button type="button" onclick="addButtonToString('4')">4</button>
+                <button type="button" onclick="addButtonToString('5')">5</button>
+                <button type="button" onclick="addButtonToString('6')">6</button>
+                <button type="button" onclick="addButtonToString('7')">7</button>
+                <button type="button" onclick="addButtonToString('8')">8</button>
+                <button type="button" onclick="addButtonToString('9')">9</button>
+            </div>
+            <div id="operadoresLateral">
+                <button type="button" id= "button1" onclick="addButtonToString(',')">,</button>
+                <button type="button" id= "button2" onclick="addButtonToString('+')">+</button>
+                <button type="button" id= "button3" onclick="addButtonToString('-')">-</button>
+                <button type="button" id= "button5" onclick="operate()">=</button>
+                <button type="button" id= "button6" onclick="addButtonToString('.')">.</button>
+            </div>
+            
+        </div>
+    </div>
+<script src="ejercicio07.js"></script>
+</body>
+
+</html>
