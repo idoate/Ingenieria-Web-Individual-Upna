@@ -9,5 +9,4 @@ function myFunction(index){
     var newObject = lastObject[index];
     lastObject[index]=actualObject;
     document.getElementById(index).innerHTML = newObject;
-
 }
