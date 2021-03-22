@@ -8,6 +8,12 @@ function operate(){
     if(operateString.includes("max(")){
         max(operateString);
     }
+    else if(operateString.includes("min(")){
+        min(operateString);
+    }
+    else if(operateString.includes("^")){
+        elevate(operateString);
+    }
     else{
         var solution = eval(operateString);
         document.getElementById("downScreen").innerHTML = solution;
@@ -24,5 +30,17 @@ function max( operateString){
     solution = Math.max(numbers[0],numbers[2]);
     document.getElementById("downScreen").innerHTML = solution ;
     
+}
+function min( operateString){
+    var prov1number = operateString.split('(');
+    var prov2number = prov1number[1].split(')');
+    numbers = prov2number[0];
+    solution = Math.min(numbers[0],numbers[2]);
+    document.getElementById("downScreen").innerHTML = solution ;
     
+}
+function elevate(operateString){
+    var prov1number = operateString.split('^');
+    solution = Math.pow(prov1number[0], prov1number[1]);
+    document.getElementById("downScreen").innerHTML = solution ;
 }
