@@ -47,22 +47,22 @@
         <fieldset>
             <div class="hair-color"> 
                 <label for="rubio">Rubio
-                    <input id="rubio" name="user_rubio" type="radio"> 
+                    <input id="rubio" name="user_hair_color" type="radio" value="Rubio"> 
                 </label> 
                 <label for="castanio">Castaño
-                    <input id="castanio" name="user_castanio" type="radio">
+                    <input id="castanio" name="user_hair_color" type="radio" value="Castaño">
                 </label> 
                 <label for="moreno">Moreno
-                    <input id="moreno" name="user_moreno" type="radio"> 
+                    <input id="moreno" name="user_hair_color" type="radio" value="Moreno"> 
                 </label>
                 <label for="pelirrojo">Pelirrojo
-                    <input id="pelirrojo" name="user_pelirrojo" type="radio"> 
+                    <input id="pelirrojo" name="user_hair_color" type="radio" value="Pelirrojo"> 
                 </label> 
                 <label for="calvo">Calvo
-                    <input id="calvo" name="user_calvo" type="radio">
+                    <input id="calvo" name="user_hair_color" type="radio" value="Calvo" checked>
                 </label> 
                 <label for="otro">Otro...
-                    <input id="otro" name="user_otro" type="radio"> 
+                    <input id="otro" name="user_hair_color" type="radio" value="Otro"> 
                 </label>
             </div> 
         </fieldset> 
@@ -71,19 +71,19 @@
             <legend>Vehículo</legend> 
             <div class = "vehicle"> 
                 <label for="car">Coche
-                    <input type="checkbox" name="user_car" id="car">
+                    <input type="checkbox" name="user_car" id="car" value="coche">
                 </label>
                 <label for="bike">Bici
-                    <input type="checkbox" name="user_bike" id="bike">
+                    <input type="checkbox" name="user_bike" id="bike" value="bici">
                 </label>
                 <label for="motorbike">Moto
-                    <input type="checkbox" name="user_motorbike" id="motorbike">
+                    <input type="checkbox" name="user_motorbike" id="motorbike" value="moto">
                 </label>
                 <label for="boat">Barco
-                    <input type="checkbox" name="user_boat" id="boat">
+                    <input type="checkbox" name="user_boat" id="boat" value="barco">
                 </label>
                 <label for="bus">Bus
-                    <input type="checkbox" name="user_bus" id="bus">
+                    <input type="checkbox" name="user_bus" id="bus" value="bus">
                 </label>
             </div>
         </fieldset>
@@ -95,16 +95,16 @@
         </div>
         <div>
             <label for="power">Nivel de poder:
-                <input type="range" name="user_power" id="power">
+                <input type="range" name="user_power" id="power " min="0" max="9000" step="100" value="5000">
             </label>
         </div>
         <div>
             <label for="submit">Submit
-                <input type="submit" name="submit_user" id="submit">
+                <input type="submit" name="submit_user" id="submit" value="ENVIAR">
             </label>
             
             <label for="reset">Reset
-                <input type="reset" name="reset_user" id="reset">
+                <input type="reset" name="reset_user" id="reset" value="RESET">
             </label>
         </div>
 
